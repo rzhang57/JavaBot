@@ -1,7 +1,4 @@
-import events.PythonBadEvent;
-import events.Reminders;
-import events.aboutEvent;
-        import events.helpEvent;
+import events.*;
 import features.Status;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
@@ -17,6 +14,7 @@ public class JavaBot {
         jda.addEventListener((new aboutEvent()));
         jda.addEventListener(new Status());
         jda.addEventListener(new Reminders());
+        jda.addEventListener(new cccEvent());
 
 
 
