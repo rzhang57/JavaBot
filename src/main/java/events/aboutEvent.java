@@ -8,7 +8,7 @@ public class aboutEvent extends ListenerAdapter {
     public void onGuildMessageReceived(GuildMessageReceivedEvent event) {
         String messageSent = event.getMessage().getContentRaw();
         if (messageSent.equalsIgnoreCase("!about")) {
-            event.getChannel().sendMessage("Hey there! I am a Discord Bot developed in java here to assist with all of your java needs. type '!help' to start!").queue();
+            event.getChannel().sendMessage("Hey there! I am a Discord Bot developed in java by java developer Ryan Zhang. I am still in development and am using JDA version 4.1.0 build 100. Currently conducting beta testing ").queue();
         }
     }
 }
