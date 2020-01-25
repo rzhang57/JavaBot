@@ -9,7 +9,7 @@ public class HelloEvent extends ListenerAdapter {
 
         String user = event.getAuthor().getName();
 
-        if(messageSent.equalsIgnoreCase("Hello!")){
+        if(messageSent.equalsIgnoreCase("Hello")||messageSent.equalsIgnoreCase("Hello!")||messageSent.equalsIgnoreCase("Hi")||messageSent.equalsIgnoreCase("Hi!")||messageSent.equalsIgnoreCase("Greetings")||messageSent.equalsIgnoreCase("Greetings!")){
             event.getChannel().sendMessage("Hello " + user + "! To start, please type '!help' for a list of commands.").queue();
         }
 

@@ -19,6 +19,7 @@ public class JavaBot {
         jda.addEventListener(new Reminders());
         jda.addEventListener(new cccEvent());
         jda.addEventListener(new HelloEvent());
+        jda.addEventListener(new AboutDeveloperEvent());
 
 
 
