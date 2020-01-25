@@ -8,7 +8,7 @@ public class Status extends ListenerAdapter {
 
     @Override
     public void onReady(ReadyEvent event) {
-        event.getJDA().getPresence().setActivity(Activity.watching("over the test server"));
+        event.getJDA().getPresence().setActivity(Activity.watching("Netlfix"));
 
 
     }

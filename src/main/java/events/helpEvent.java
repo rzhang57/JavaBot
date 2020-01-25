@@ -8,11 +8,8 @@ public class helpEvent extends ListenerAdapter {
     public void onGuildMessageReceived(GuildMessageReceivedEvent event) {
         String messageSent = event.getMessage().getContentRaw();
         if (messageSent.equalsIgnoreCase("!help")) {
-            event.getChannel().sendMessage("|---==== HELP PAGE 1 ====---|").queue();
-            event.getChannel().sendMessage("!python for a surprise").queue();
-            event.getChannel().sendMessage("!reminder for your daily reminder").queue();
-            event.getChannel().sendMessage("!help2 for next page").queue();
-            event.getChannel().sendMessage("|---==== HELP PAGE 1 ====---|").queue();
+            event.getChannel().sendMessage("**Help Pg.1**\n!help to pull up this command list\n!ccchelp to learn more about the Canadian Computing Challenge\n!reminder for a daily tip/reminder\n!about to learn more about me\n!python for a surprise\n**More to come :)**").queue();
+
 
         }
     }

@@ -1,3 +1,4 @@
+import commands.Ping;
 import events.*;
 import features.Status;
 import net.dv8tion.jda.api.JDA;
@@ -9,6 +10,7 @@ public class JavaBot {
 
         JDA jda = new JDABuilder("NjY5Nzc3ODY2NDA5Mzc3ODEy.Xio_gg.zc3pKBrb-DP_mjU4NsTcuFjakX0").build();
 
+        jda.addEventListener((new Ping()));
         jda.addEventListener(new PythonBadEvent());
         jda.addEventListener(new helpEvent());
         jda.addEventListener((new aboutEvent()));
