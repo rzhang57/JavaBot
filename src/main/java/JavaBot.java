@@ -1,5 +1,8 @@
 
+import commands.InviteCommand;
 import commands.Ping;
+import commands.UserInfo;
+import commands.helpCommand;
 import events.*;
 import features.Status;
 import net.dv8tion.jda.api.JDA;
@@ -20,6 +23,9 @@ public class JavaBot {
         jda.addEventListener(new cccEvent());
         jda.addEventListener(new HelloEvent());
         jda.addEventListener(new AboutDeveloperEvent());
+        jda.addEventListener(new InviteCommand());
+        jda.addEventListener(new UserInfo());
+        jda.addEventListener(new helpCommand());
 
 
 
