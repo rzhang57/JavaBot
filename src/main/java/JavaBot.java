@@ -1,3 +1,4 @@
+
 import commands.Ping;
 import events.*;
 import features.Status;
@@ -17,6 +18,8 @@ public class JavaBot {
         jda.addEventListener(new Status());
         jda.addEventListener(new Reminders());
         jda.addEventListener(new cccEvent());
+        jda.addEventListener(new HelloEvent());
+
 
 
 

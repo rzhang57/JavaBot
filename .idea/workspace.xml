@@ -106,7 +106,29 @@
     </state>
     <state width="1261" height="118" key="GridCell.Tab.0.right/0.0.1304.768@0.0.1304.768" timestamp="1579835181933" />
     <state width="1799" height="271" key="GridCell.Tab.0.right/0.0.1842.1071@0.0.1842.1071" timestamp="1579913077546" />
-    <state x="416" y="139" width="998" height="708" key="SettingsEditor" timestamp="1579913894017">
+    <state x="416" y="139" width="998" height="708" key="SettingsEditor" timestamp="1579913894017"></state>
+
+    <state width="1261" height="118" key="GridCell.Tab.0.bottom" timestamp="1579852899943">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="118" key="GridCell.Tab.0.bottom/0.0.1304.768@0.0.1304.768" timestamp="1579852899943" />
+    <state width="1799" height="271" key="GridCell.Tab.0.bottom/0.0.1842.1071@0.0.1842.1071" timestamp="1579850163853" />
+    <state width="1261" height="118" key="GridCell.Tab.0.center" timestamp="1579852899943">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="118" key="GridCell.Tab.0.center/0.0.1304.768@0.0.1304.768" timestamp="1579852899943" />
+    <state width="1799" height="271" key="GridCell.Tab.0.center/0.0.1842.1071@0.0.1842.1071" timestamp="1579850163853" />
+    <state width="1261" height="118" key="GridCell.Tab.0.left" timestamp="1579852899943">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="118" key="GridCell.Tab.0.left/0.0.1304.768@0.0.1304.768" timestamp="1579852899943" />
+    <state width="1799" height="271" key="GridCell.Tab.0.left/0.0.1842.1071@0.0.1842.1071" timestamp="1579850163853" />
+    <state width="1261" height="118" key="GridCell.Tab.0.right" timestamp="1579852899943">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state width="1261" height="118" key="GridCell.Tab.0.right/0.0.1304.768@0.0.1304.768" timestamp="1579852899943" />
+    <state width="1799" height="271" key="GridCell.Tab.0.right/0.0.1842.1071@0.0.1842.1071" timestamp="1579850163853" />
+    <state x="416" y="139" width="998" height="708" key="SettingsEditor" timestamp="1579847589583">
       <screen x="0" y="0" width="1842" height="1071" />
     </state>
     <state x="153" y="0" key="SettingsEditor/0.0.1304.768@0.0.1304.768" timestamp="1579827956504" />
