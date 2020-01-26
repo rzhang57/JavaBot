@@ -1,9 +1,6 @@
 import com.jagrosh.jdautilities.command.CommandClient;
 import com.jagrosh.jdautilities.command.CommandClientBuilder;
-import commands.InviteCommand;
-import commands.Ping;
-import commands.UserInfo;
-import commands.helpCommand;
+import commands.*;
 import events.*;
 import features.Status;
 import net.dv8tion.jda.api.AccountType;
@@ -26,9 +23,6 @@ public class App extends ListenerAdapter {
 
                 //We no longer need to register each command class here, we just register the command client
                 jda.addEventListener(client);
-
-
-               //my old commands
                 jda.addEventListener((new Ping()));
                 jda.addEventListener(new PythonBadEvent());
                 jda.addEventListener(new helpEvent());
@@ -36,11 +30,12 @@ public class App extends ListenerAdapter {
                 jda.addEventListener(new Status());
                 jda.addEventListener(new Reminders());
                 jda.addEventListener(new cccEvent());
-                jda.addEventListener(new HelloEvent());
                 jda.addEventListener(new AboutDeveloperEvent());
                 jda.addEventListener(new InviteCommand());
                 jda.addEventListener(new UserInfo());
                 jda.addEventListener(new helpCommand());
+                jda.addEventListener(new ftcHelpCommand());
+                jda.addEventListener(new CreeperEvent());
 
         }
 }

@@ -1,3 +1,5 @@
+package commands;
+
 import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 import net.dv8tion.jda.api.EmbedBuilder;
@@ -37,10 +39,6 @@ public class ServerInfo extends Command {
                 eb.setFooter("Request made at " + formatter.format(date), event.getGuild().getIconUrl() );
 
 
-                //
 
-                //Sends the embed as a message
-                event.getChannel().sendMessage(eb.build()).queue();
-                event.getChannel().sendMessage(event.getAuthor().getAsMention()).queue(); //Mentions the user to get their attention
         }
 }
