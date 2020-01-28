@@ -27,9 +27,6 @@ public class App implements EventListener {
 
                 //We no longer need to register each command class here, we just register the command client
                 jda.addEventListener(client);
-
-
-               //my old commands
                 jda.addEventListener((new Ping()));
                 jda.addEventListener(new PythonBadEvent());
                 jda.addEventListener(new helpEvent());
@@ -37,11 +34,12 @@ public class App implements EventListener {
                 jda.addEventListener(new Status());
                 jda.addEventListener(new Reminders());
                 jda.addEventListener(new cccEvent());
-                jda.addEventListener(new HelloEvent());
                 jda.addEventListener(new AboutDeveloperEvent());
                 jda.addEventListener(new InviteCommand());
                 jda.addEventListener(new UserInfo());
                 jda.addEventListener(new helpCommand());
+                jda.addEventListener(new ftcHelpCommand());
+                jda.addEventListener(new CreeperEvent());
 
         }
 

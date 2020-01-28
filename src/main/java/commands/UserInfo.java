@@ -8,7 +8,6 @@ import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import java.awt.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Objects;
 
 public class UserInfo extends ListenerAdapter {
 
@@ -29,7 +28,6 @@ public class UserInfo extends ListenerAdapter {
             avatarEmbed.setColor(Color.YELLOW);
             avatarEmbed.addField("Name:", user.getName(), true);
             avatarEmbed.addField("Online Status:", e.getGuild().getMembersByName(userName, true).get(0).getOnlineStatus().toString(), true);
-            avatarEmbed.addField("Avatar ",  Objects.requireNonNull(" "), true);
             avatarEmbed.setImage(avatar);
             avatarEmbed.setFooter("Request made at " + formatter.format(date), e.getGuild().getIconUrl() );
             //
