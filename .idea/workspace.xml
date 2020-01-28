@@ -110,11 +110,11 @@
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state x="443" y="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1304.768@0.0.1304.768" timestamp="1579982169323" />
-    <state x="461" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580061087653">
-      <screen x="0" y="0" width="1304" height="768" />
+    <state x="651" y="283" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580182902448">
+      <screen x="0" y="0" width="1842" height="1071" />
     </state>
     <state x="461" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1304.768@0.0.1304.768" timestamp="1580061087653" />
-    <state x="651" y="283" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1842.1071@0.0.1842.1071" timestamp="1579932884556" />
+    <state x="651" y="283" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1842.1071@0.0.1842.1071" timestamp="1580182902448" />
     <state x="625" y="276" key="FileChooserDialogImpl" timestamp="1579846156165">
       <screen x="0" y="0" width="1842" height="1071" />
     </state>
@@ -160,11 +160,11 @@
     </state>
     <state x="153" y="0" key="SettingsEditor/0.0.1304.768@0.0.1304.768" timestamp="1579970340003" />
     <state x="765" y="204" width="998" height="708" key="SettingsEditor/0.0.1842.1071@0.0.1842.1071" timestamp="1579933082519" />
-    <state x="347" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1580059341920">
-      <screen x="0" y="0" width="1304" height="768" />
+    <state x="490" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1580182883181">
+      <screen x="0" y="0" width="1842" height="1071" />
     </state>
     <state x="347" y="209" key="com.intellij.ide.util.TipDialog/0.0.1304.768@0.0.1304.768" timestamp="1580059341920" />
-    <state x="490" y="291" key="com.intellij.ide.util.TipDialog/0.0.1842.1071@0.0.1842.1071" timestamp="1579926492653" />
+    <state x="490" y="291" key="com.intellij.ide.util.TipDialog/0.0.1842.1071@0.0.1842.1071" timestamp="1580182883181" />
     <state x="714" y="337" key="run.anything.popup" timestamp="1579910554706">
       <screen x="0" y="0" width="1842" height="1071" />
     </state>
