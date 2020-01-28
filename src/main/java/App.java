@@ -6,9 +6,8 @@ import features.Status;
 import net.dv8tion.jda.api.AccountType;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
-import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
-public class App extends ListenerAdapter {
+public class App {
         public static void main(String [] args) throws Exception{
 
                 JDA jda = new JDABuilder(AccountType.BOT).setToken("NjY5Nzc3ODY2NDA5Mzc3ODEy.Xio_gg.zc3pKBrb-DP_mjU4NsTcuFjakX0").build();
@@ -34,8 +33,5 @@ public class App extends ListenerAdapter {
                 jda.addEventListener(new InviteCommand());
                 jda.addEventListener(new UserInfo());
                 jda.addEventListener(new helpCommand());
-                jda.addEventListener(new ftcHelpCommand());
-                jda.addEventListener(new CreeperEvent());
-
         }
 }
