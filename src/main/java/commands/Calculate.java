@@ -10,6 +10,7 @@ public class Calculate extends ListenerAdapter {
     public void onGuildMessageReceived (GuildMessageReceivedEvent event){
 
         if(event.getMessage().getContentRaw().equalsIgnoreCase("!calculate")){
+            event.getChannel().sendMessage("ok");
 
         }
 

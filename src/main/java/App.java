@@ -1,17 +1,17 @@
 import com.jagrosh.jdautilities.command.CommandClient;
 import com.jagrosh.jdautilities.command.CommandClientBuilder;
-import commands.InviteCommand;
-import commands.Ping;
-import commands.UserInfo;
-import commands.helpCommand;
+import commands.*;
 import events.*;
 import features.Status;
 import net.dv8tion.jda.api.AccountType;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
-import net.dv8tion.jda.api.hooks.ListenerAdapter;
+import net.dv8tion.jda.api.events.GenericEvent;
+import net.dv8tion.jda.api.hooks.EventListener;
 
-public class App extends ListenerAdapter {
+import javax.annotation.Nonnull;
+
+public class App implements EventListener {
         public static void main(String [] args) throws Exception{
 
                 JDA jda = new JDABuilder(AccountType.BOT).setToken("NjY5Nzc3ODY2NDA5Mzc3ODEy.Xio_gg.zc3pKBrb-DP_mjU4NsTcuFjakX0").build();
@@ -21,6 +21,7 @@ public class App extends ListenerAdapter {
                 builder.setOwnerId("669777866409377812");
                 builder.setPrefix("$");
                 builder.addCommand(new ServerInfo());
+                builder.addCommand(new ftchelpCommand());
                 builder.setHelpWord("helpme");
                 CommandClient client = builder.build();
 
@@ -41,6 +42,11 @@ public class App extends ListenerAdapter {
                 jda.addEventListener(new InviteCommand());
                 jda.addEventListener(new UserInfo());
                 jda.addEventListener(new helpCommand());
+
+        }
+
+        @Override
+        public void onEvent(@Nonnull GenericEvent genericEvent) {
 
         }
 }
