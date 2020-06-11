@@ -22,6 +22,9 @@ public class App implements EventListener {
                 builder.setPrefix("$");
                 builder.addCommand(new ServerInfo());
                 builder.addCommand(new ftchelpCommand());
+                builder.addCommand(new ftcError());
+                builder.addCommand(new ImageCommand());
+                builder.addCommand(new sayCommand());
                 builder.setHelpWord("helpme");
                 CommandClient client = builder.build();
 
@@ -37,10 +40,6 @@ public class App implements EventListener {
                 jda.addEventListener(new AboutDeveloperEvent());
                 jda.addEventListener(new InviteCommand());
                 jda.addEventListener(new UserInfo());
-                jda.addEventListener(new helpCommand());
-                jda.addEventListener(new ftcHelpCommand());
-                jda.addEventListener(new CreeperEvent());
-
         }
 
         @Override

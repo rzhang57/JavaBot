@@ -11,7 +11,7 @@ public class Ping extends ListenerAdapter {
     @Override
     public void onMessageReceived(MessageReceivedEvent e) {
 
-        if (e.getMessage().getContentRaw().equalsIgnoreCase("!ping")) {
+        if (e.getMessage().getContentRaw().equalsIgnoreCase("$ping")) {
             e.getChannel().sendMessage("pong!").queue(
                     msg -> e.getChannel().sendMessage(new EmbedBuilder()
                             .addField("Ping:", "**Discord API:** " + e.getJDA().getGatewayPing() + "ms\n" +

@@ -15,9 +15,9 @@ public class UserInfo extends ListenerAdapter {
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         Date date = new Date();
         String[] message = e.getMessage().getContentRaw().split(" ");
-        if (message.length == 1 && message[0].equalsIgnoreCase("!user")){
-            e.getChannel().sendMessage("To get a users info, type !user [insert username here]").queue(); //how to use command
-        }else if(message.length == 2 && message[0].equalsIgnoreCase("!user")){
+        if (message.length == 1 && message[0].equalsIgnoreCase("$user")){
+            e.getChannel().sendMessage("To get a users info, type $user [insert username here]").queue(); //how to use command
+        }else if(message.length == 2 && message[0].equalsIgnoreCase("$user")){
             String userName = message[1];
             User user = e.getGuild().getMembersByName(userName, true).get(0).getUser(); //Gets user as object so we can grab info from it for embed
             String avatar = e.getGuild().getMembersByName(userName, true).get(0).getUser().getAvatarUrl(); //gets url of user avatar so we can put in embed
@@ -29,7 +29,7 @@ public class UserInfo extends ListenerAdapter {
             avatarEmbed.addField("Name:", user.getName(), true);
             avatarEmbed.addField("Online Status:", e.getGuild().getMembersByName(userName, true).get(0).getOnlineStatus().toString(), true);
             avatarEmbed.setImage(avatar);
-            avatarEmbed.setFooter("Request made at " + formatter.format(date), e.getGuild().getIconUrl() );
+            avatarEmbed.setFooter("Request made at " + formatter.format(date) + " by @" + e.getAuthor().getAsTag(), e.getGuild().getIconUrl());
             //
             e.getChannel().sendMessage(avatarEmbed.build()).queue(); //Send the embed as a message
         }

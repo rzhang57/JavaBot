@@ -2,20 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae44ae9d-0f99-443b-a400-9580a4145d3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/ImageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/ftcError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/sayCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaBot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ServerInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/Calculate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/InviteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/InviteCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/Ping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/Ping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/commands/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/events/HelloEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/events/HelloEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/ftchelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/ftchelpCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/helpCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/events/AboutDeveloperEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/events/AboutDeveloperEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/events/PythonBadEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/events/PythonBadEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/events/Reminders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/events/Reminders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/events/aboutEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/events/aboutEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/events/cccEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/events/cccEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/events/helpEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/events/helpEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/features/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaBot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commands/Calculate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commands/InviteCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commands/InviteCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commands/Ping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commands/Ping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commands/ServerInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commands/ServerInfo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/commands/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commands/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/events/HelloEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/events/HelloEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commands/ftchelpCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commands/ftchelpCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commands/helpCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/events/AboutDeveloperEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/events/AboutDeveloperEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/events/PythonBadEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/events/PythonBadEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/events/Reminders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/events/Reminders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/events/aboutEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/events/aboutEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/events/cccEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/events/cccEvent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/events/helpEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/events/helpEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/Status.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +42,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaBot" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,6 +65,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WorIA36qBxbnC8mkgvTNsDhBKT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -110,34 +134,34 @@
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state x="443" y="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1304.768@0.0.1304.768" timestamp="1579982169323" />
-    <state x="651" y="283" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580182902448">
-      <screen x="0" y="0" width="1842" height="1071" />
+    <state x="461" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581719578431">
+      <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state x="461" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1304.768@0.0.1304.768" timestamp="1580061087653" />
+    <state x="461" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1304.768@0.0.1304.768" timestamp="1581719578431" />
     <state x="651" y="283" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1842.1071@0.0.1842.1071" timestamp="1580182902448" />
     <state x="625" y="276" key="FileChooserDialogImpl" timestamp="1579846156165">
       <screen x="0" y="0" width="1842" height="1071" />
     </state>
     <state x="625" y="276" key="FileChooserDialogImpl/0.0.1842.1071@0.0.1842.1071" timestamp="1579846156165" />
-    <state width="1261" height="99" key="GridCell.Tab.0.bottom" timestamp="1580061049914">
+    <state width="1261" height="99" key="GridCell.Tab.0.bottom" timestamp="1582183783298">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="99" key="GridCell.Tab.0.bottom/0.0.1304.768@0.0.1304.768" timestamp="1580061049914" />
+    <state width="1261" height="99" key="GridCell.Tab.0.bottom/0.0.1304.768@0.0.1304.768" timestamp="1582183783298" />
     <state width="1799" height="166" key="GridCell.Tab.0.bottom/0.0.1842.1071@0.0.1842.1071" timestamp="1579934296091" />
-    <state width="1261" height="99" key="GridCell.Tab.0.center" timestamp="1580061049913">
+    <state width="1261" height="99" key="GridCell.Tab.0.center" timestamp="1582183783298">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="99" key="GridCell.Tab.0.center/0.0.1304.768@0.0.1304.768" timestamp="1580061049913" />
+    <state width="1261" height="99" key="GridCell.Tab.0.center/0.0.1304.768@0.0.1304.768" timestamp="1582183783298" />
     <state width="1799" height="166" key="GridCell.Tab.0.center/0.0.1842.1071@0.0.1842.1071" timestamp="1579934296091" />
-    <state width="1261" height="99" key="GridCell.Tab.0.left" timestamp="1580061049913">
+    <state width="1261" height="99" key="GridCell.Tab.0.left" timestamp="1582183783298">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="99" key="GridCell.Tab.0.left/0.0.1304.768@0.0.1304.768" timestamp="1580061049909" />
+    <state width="1261" height="99" key="GridCell.Tab.0.left/0.0.1304.768@0.0.1304.768" timestamp="1582183783298" />
     <state width="1799" height="166" key="GridCell.Tab.0.left/0.0.1842.1071@0.0.1842.1071" timestamp="1579934296091" />
-    <state width="1261" height="99" key="GridCell.Tab.0.right" timestamp="1580061049913">
+    <state width="1261" height="99" key="GridCell.Tab.0.right" timestamp="1582183783298">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="99" key="GridCell.Tab.0.right/0.0.1304.768@0.0.1304.768" timestamp="1580061049913" />
+    <state width="1261" height="99" key="GridCell.Tab.0.right/0.0.1304.768@0.0.1304.768" timestamp="1582183783298" />
     <state width="1799" height="166" key="GridCell.Tab.0.right/0.0.1842.1071@0.0.1842.1071" timestamp="1579934296091" />
     <state width="1261" height="217" key="GridCell.Tab.1.bottom" timestamp="1580060920517">
       <screen x="0" y="0" width="1304" height="768" />
@@ -160,19 +184,25 @@
     </state>
     <state x="153" y="0" key="SettingsEditor/0.0.1304.768@0.0.1304.768" timestamp="1579970340003" />
     <state x="765" y="204" width="998" height="708" key="SettingsEditor/0.0.1842.1071@0.0.1842.1071" timestamp="1579933082519" />
-    <state x="490" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1580182883181">
-      <screen x="0" y="0" width="1842" height="1071" />
+    <state x="347" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1583222495817">
+      <screen x="0" y="0" width="1303" height="768" />
     </state>
-    <state x="347" y="209" key="com.intellij.ide.util.TipDialog/0.0.1304.768@0.0.1304.768" timestamp="1580059341920" />
+    <state x="347" y="209" key="com.intellij.ide.util.TipDialog/0.0.1303.768@0.0.1303.768" timestamp="1583222495817" />
+    <state x="347" y="209" key="com.intellij.ide.util.TipDialog/0.0.1304.768@0.0.1304.768" timestamp="1582179401636" />
     <state x="490" y="291" key="com.intellij.ide.util.TipDialog/0.0.1842.1071@0.0.1842.1071" timestamp="1580182883181" />
+    <state x="34" y="0" key="new project wizard" timestamp="1583222540669">
+      <screen x="0" y="0" width="1303" height="768" />
+    </state>
+    <state x="34" y="0" key="new project wizard/0.0.1303.768@0.0.1303.768" timestamp="1583222540669" />
+    <state x="34" y="0" key="new project wizard/0.0.1304.768@0.0.1304.768" timestamp="1581476946002" />
     <state x="714" y="337" key="run.anything.popup" timestamp="1579910554706">
       <screen x="0" y="0" width="1842" height="1071" />
     </state>
     <state x="714" y="337" key="run.anything.popup/0.0.1842.1071@0.0.1842.1071" timestamp="1579910554706" />
-    <state x="445" y="124" width="950" height="946" key="search.everywhere.popup" timestamp="1579930309709">
-      <screen x="0" y="0" width="1842" height="1071" />
+    <state x="315" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1580186863579">
+      <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state x="315" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1304.768@0.0.1304.768" timestamp="1579834863114" />
+    <state x="315" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1304.768@0.0.1304.768" timestamp="1580186863579" />
     <state x="445" y="124" width="950" height="946" key="search.everywhere.popup/0.0.1842.1071@0.0.1842.1071" timestamp="1579930309709" />
   </component>
 </project>
